@@ -25,6 +25,8 @@ public class PersonDatabase {
                 new Person("Priya"));
     }
 
+    /** Retourne la liste courante
+    */
     public Person[] currentList() {
         return persons.toArray(new Person[0]);
     }
