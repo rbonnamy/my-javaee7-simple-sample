@@ -11,6 +11,7 @@ import javax.ws.rs.Produces;
 @Path("persons")
 public class PersonResource {
 
+    /** database */
     @Inject
     PersonDatabase database;
 
