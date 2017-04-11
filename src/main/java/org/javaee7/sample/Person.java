@@ -2,11 +2,12 @@ package org.javaee7.sample;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-/** Personne
+/** Représente une personne avec un id et un nom
  * @author arungupta
  */
 @XmlRootElement
 public class Person {
+    private int id;
     private String name;
 
     public Person() {

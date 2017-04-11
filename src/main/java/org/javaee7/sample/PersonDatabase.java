@@ -7,6 +7,8 @@ import javax.annotation.PostConstruct;
 import javax.inject.Singleton;
 import javax.ws.rs.NotFoundException;
 
+/** Persistence pour Person
+ */
 @Singleton
 public class PersonDatabase {
 
